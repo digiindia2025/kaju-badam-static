@@ -1,0 +1,22 @@
+/* src/app/globals.css */
+
+body {
+  margin: 0;
+  font-family: var(--font-geist-sans), sans-serif;
+}
+
+header, footer {
+  padding: 1rem;
+  background-color: #f8f8f8;
+  text-align: center;
+}
+
+nav a {
+  margin: 0 1rem;
+  text-decoration: none;
+  color: #333;
+}
+
+main {
+  padding: 2rem;
+}
