@@ -3,7 +3,7 @@ import "./globals.css";
 import { Geist, Geist_Mono } from "next/font/google";
 import Footer from "../components/Footer";
 import { CartProvider } from '../Context/CartContext';
-// import header from "../components/Header";
+import Header from "../components/Header";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -30,7 +30,8 @@ export default function RootLayout({ children }: RootLayoutProps) {
       <body>
         <CartProvider>
            {/* ✅ Use Header directly without client-wrapper */}
-           {/* <Header/> */}
+
+           <Header />
           <main>{children}</main>
           <Footer />
         </CartProvider>
