@@ -31,7 +31,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
         <CartProvider>
            {/* ✅ Use Header directly without client-wrapper */}
 
-           <Header />
+           <Header cartItems='NA' />
           <main>{children}</main>
           <Footer />
         </CartProvider>
